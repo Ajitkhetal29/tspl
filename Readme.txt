@@ -1,1 +1,1 @@
-https://ajitkhetal29.github.io/Tspl/
+https://ajitkhetal29.github.io/tspl/
