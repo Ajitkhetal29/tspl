@@ -447,7 +447,7 @@ h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 #hero h1 span {
@@ -468,7 +468,7 @@ h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(248, 211, 4, 0.3);
   height: 100%;
   text-align: center;
 }
