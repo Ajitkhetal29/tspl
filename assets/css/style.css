@@ -465,6 +465,42 @@ h6 {
   font-size: 30px;
 }
 
+#hero .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#hero .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#hero .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#hero .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#hero .icon-box:hover {
+  border-color: #ffc451;
+}
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -1104,7 +1140,7 @@ section {
 .prod-info-div {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .prod-footer {
@@ -1125,12 +1161,12 @@ section {
   transition: background-color 0.3s; /* Smooth transition */
 }
 
-.prod-footer .btn:nth-child(1){
-  background-color:#c73a0f; /* Button background color */
+.prod-footer .btn:nth-child(1) {
+  background-color: #c73a0f; /* Button background color */
 }
 
-.prod-footer .btn:nth-child(2){
-  background-color:#11c4e4; /* Button background color */
+.prod-footer .btn:nth-child(2) {
+  background-color: #11c4e4; /* Button background color */
 }
 .prod-footer .btn:hover {
   background-color: #0056b3; /* Darker shade on hover */
@@ -1143,7 +1179,7 @@ section {
   padding: 50px; /* Inner spacing */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   margin: 20px 0; /* Space above and below the div */
-  display: block; 
+  display: block;
 }
 
 .prod-info-div h4 {
@@ -1304,4 +1340,3 @@ section {
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: #ffcd6b;
 }
-
